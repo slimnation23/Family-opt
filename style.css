@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Montserrat:wght@800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    background-image: url(https://i.postimg.cc/4Ny5qRDN/family-moving-and-using-boxes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 940px;
+    padding: 87px 140px 66px 140px;
+}
+
+.header a {
+    font-size: 16px;
+    font-family: 'Manrope';
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.header a img {
+    margin-right: 15px;
+}
+
+.header .line {
+    background-color: rgb(129, 47, 251);
+    width: 85px;
+    height: 3px;
+    margin: 40px 0;
+}
+
+.header h1 {
+    font-size: 32px;
+    font-family: 'Montserrat';
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.header p {
+    font-size: 18px;
+    font-family: 'Manrope';
+    color: rgb(255, 255, 255);
+    width: 247px;
+    height: 73px;
+    margin-bottom: 100px;
+}
+
+.header .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(129, 47, 251);
+    box-shadow: 0px 11px 38px 0px rgba(129, 47, 251, 0.3);
+    width: 190px;
+    height: 60px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-family: 'Myriad Pro' !important;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
