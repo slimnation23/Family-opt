@@ -6,12 +6,12 @@
     box-sizing: border-box;
 }
 
-/* .body-content {
+.body-content {
     max-width: 940px;
     width: 100%;
     display: flex;
     flex-direction: column;
-} */
+}
 
 .header {
     background-image: url(https://i.postimg.cc/4Ny5qRDN/family-moving-and-using-boxes.jpg);
@@ -19,7 +19,7 @@
     background-size: cover;
     background-position: center center;
     width: 100%;
-    padding: 87px 140px 66px 140px;
+    padding: 87px 15% 66px 15%;
 }
 
 .header a {
@@ -73,11 +73,10 @@
 }
 
 .main {
-    padding: 0px 60px;
+    padding: 80px 60px 0;
 }
 
 .title {
-    padding: 80px 0;
     display: flex;
     width: 100%;
 }
@@ -87,8 +86,6 @@
     font-family: 'Montserrat';
     color: rgb(29, 29, 29);
     font-weight: bold;
-    width: 250px;
-    display: block;
 }
 
 .title h2 span {
@@ -108,18 +105,159 @@
 .items {
     display: flex;
     justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 75px;
 }
 
 .item {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 190px;
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-bottom: 55px;
 }
 
-.item img {
-    
+.item-number {
+    position: relative;
+    border: 1px solid rgb(129, 47, 251);
+    border-radius: 50%;
+    width: 68px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    font-size: 36px;
+    font-family: 'Manrope';
+    color: rgb(236, 236, 236);
+    font-weight: bold;
 }
-  
+
+.point {
+    position: absolute;
+    right: -5px;
+    top: 5px;
+    border-width: 5px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 50%;
+    background-color: rgb(129, 47, 251);
+    box-shadow: 0px 0px 16px 0px rgba(129, 47, 251, 0.3);
+    width: 18px;
+    height: 18px;
+}
+
+.item-img {
+    border: 1px solid rgb(129, 47, 251);
+    border-radius: 10px;
+    margin-bottom: 45px;
+    width: 97px;
+    height: 97px;
+    padding-top: 5px;
+}
+
+.item-img:hover {
+    background-color: rgb(129, 47, 251);
+    box-shadow: 0 0 0 20px rgba(129, 47, 251, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.item-img img {
+    width: 97px;
+    height: 97px;
+}
+
+.item p {
+    font-size: 16px;
+    font-family: 'Manrope';
+    color: rgb(29, 29, 29);
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.top-block {
+    width: 260px;
+    height: 290px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.top-block:hover {
+    box-shadow: 0px 26px 51px 0px rgba(129, 47, 251, 0.41);
+}
+
+.top-block img {
+    position: relative;
+    width: 260px;
+    height: 290px;
+}
+
+.top-text {
+    position: absolute;
+    width: 260px;
+    padding: 0 15px 30px 35px;
+}
+
+.top-text h3 {
+    font-family: 'Manrope';
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.top-line {
+    background-color: rgb(255, 255, 255);
+    width: 56px;
+    height: 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.top-text a {
+    font-size: 14px;
+    font-family: 'Manrope';
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.button {
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 70px;
+}
+
+.button button {
+    background-color: rgb(129, 47, 251);
+    width: 190px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    font-family: 'Manrope';
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.button button:hover {
+    box-shadow: 0 0 0 20px rgba(129, 47, 251, 0.3);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+@media (max-width: 750px) {
+    .header {
+        padding-left: 5%;
+    }
+}
