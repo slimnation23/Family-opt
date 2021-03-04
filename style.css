@@ -72,6 +72,10 @@
     text-decoration: underline;
 }
 
+.header .button:hover {
+    box-shadow: 0 0 0 20px rgba(129, 47, 251, 0.2);
+}
+
 .main {
     padding: 80px 60px 0;
 }
